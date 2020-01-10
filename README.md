@@ -13,3 +13,4 @@ purpleair_json transforms the json to  to:
 
 `{"ID": 37123, "pm": 19.8, "age": 1, "pm_0": 19.8, "pm_1": 21.9, "pm_2": 25.1, "pm_3": 23.6, "pm_4": 12.3, "pm_5": 9.0, "pm_6": 10.7, "conf": 100, "pm1": 13.1, "pm_10": 21.1, "p1": 2378.7, "p2": 692.4, "p3": 125.3, "p4": 8.8, "p5": 1.8, "p6": 0.6, "Humidity": 55, "Temperature": 56, "Pressure": 1027.24, "Elevation": 9, "Type": 0, "Label": "Actual Name on Record", "Lat": 37.850136, "Lon": -122.29151, "Icon": 0, "isOwner": 0, "Flags": 0, "Voc": null, "Ozone1": null, "Adc": 0.0, "CH": 3, "version": "7.0.4"}`
 
+purpleair_json will only transform the data from the first array. Changes will be needed to support multiple data array entries.
